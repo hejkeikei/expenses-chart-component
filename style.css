@@ -94,6 +94,9 @@ hr{
 .bar:hover{
     opacity: 0.8;
 }
+.bar,.tip{
+    transition:all ease-in-out 0.2s;
+}
 #total{
     font-size: 2rem;
     font-weight: var(--bold);
